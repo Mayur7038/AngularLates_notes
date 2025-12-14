@@ -1,0 +1,24 @@
+Topics
+
+1.Directives : -
+
+
+2.Pipes
+3.Router
+4.Rxjs
+5.Build
+6.Ngrx
+7.Data Transfer
+8.LifeCycle Hooks
+9.Dependancy Injection
+10.Forms
+11.View Incapsulation
+
+
+
+1. What is Data binding
+2. Multiple threading in Angular
+3. 
+
+
+
