@@ -1,0 +1,18 @@
+1. Tell About YourSelf:- I’m a Full Stack Developer with around 3.5 years of experience, 
+currently working at Egreens Farms Pvt. Ltd., where I build and maintain scalable web and mobile applications using the MEAN stack.
+I primarily work with Angular on the frontend and Node.js with Express on the backend, building REST APIs, real-time features, 
+and integrating third-party services like Google Maps and payment gateways.
+Recently, I implemented a real-time chatbot system that allows users to raise queries and chat live with a Customer Service Manager using WebSockets,
+ which helped improve customer engagement and reduced support response time.
+I’ve worked end-to-end on multiple products I’m now looking to grow in a role where I can take more ownership and work on complex full-stack challenges.
+
+2. Tell me about your current role
+In my current role as a MEAN Stack Developer, I work on building and maintaining business-critical applications for customers, delivery riders, and internal teams.
+I develop Angular-based UIs, design Node.js APIs, work with MongoDB, and implement features like real-time tracking, chat systems, and admin dashboards.
+I’m also involved in performance optimization, bug fixing, and production support.
+
+
+3. What kind of projects have you worked on?
+I’ve worked on multiple large-scale applications including customer-facing apps, delivery rider apps, admin panels, and marketing dashboards.
+These applications handle real-time data such as order tracking, live chat, and delivery status updates.
+One of the notable projects was a real-time customer support chatbot, where users could raise queries and chat directly with support managers inside the app.
