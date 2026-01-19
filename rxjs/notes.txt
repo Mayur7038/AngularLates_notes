@@ -2,6 +2,8 @@
 Observable is a stream of asynchronous data that emits values over time and allows subscription,
 cancellation, and powerful data manipulation using RxJS operators.
 
+Operators are functions that allow you to transform or manipulate Observables in various ways. 
+
 2. Why Observables are used?
 
     Handle async operations like:
@@ -28,3 +30,21 @@ Emits multiple values	Emits single value
 Lazy	                Eager
 Can be cancelled    	Cannot be cancelled
 Supports operators	    Limited chaining
+
+
+
+
+1. Observable (The Producer)
+An Observable is a blueprint for a data stream that emits values over time.
+ It is lazy (it doesn't start until someone subscribes) and can push three types of notifications: data (next), errors (error), or completion (complete).
+
+2. Observer (The Consumer)
+An Observer is an object containing a set of callbacks that listen to an Observable.
+ It defines how to react to the data, errors, or completion signals received from the source.
+
+
+3. Operator (The Processer)
+An Operator is a pure function that takes an Observable as input and returns a new Observable as output.
+ They allow you to transform, filter, or combine data streams without modifying the original source.
+
+"A functional tool used to manipulate data streams in a declarative way (e.g., map, filter, switchMap)."

@@ -1,0 +1,19 @@
+Interceptors are generally functions which you can run for each request, and 
+have broad capabilities to affect the contents and overall flow of requests and responses. 
+You can install multiple interceptors, which form an interceptor chain 
+where each interceptor processes the request or response before forwarding it to the next interceptor in the chain.
+
+
+
+You can use interceptors to implement a variety of common patterns, such as:
+
+Adding authentication headers to outgoing requests to a particular API.
+Retrying failed requests with exponential backoff.
+Caching responses for a period of time, or until invalidated by mutations.
+Customizing the parsing of responses.
+Measuring server response times and log them.
+Driving UI elements such as a loading spinner while network operations are in progress.
+Collecting and batch requests made within a certain timeframe.
+Automatically failing requests after a configurable deadline or timeout.
+Regularly polling the server and refreshing results.
+

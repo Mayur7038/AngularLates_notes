@@ -1,7 +1,6 @@
 Topics
 
 1.Directives : -
-
 2.Pipes
 3.Router
 4.Rxjs
@@ -9,11 +8,13 @@ Topics
 6.Ngrx
 7.Data Transfer
 8.LifeCycle Hooks
+
 9.Dependancy Injection
 10.Forms
 11.View Incapsulation
 12.Decorator.
 13.interceptors.
+14.Change Detection 
 
 14.What is Change Detection
  -  The process of synchronizing a model with a view is known as Change Detection.
@@ -35,3 +36,5 @@ Topics
 
 
 
+
+The RouterOutlet is a directive provided by the Angular Router module that acts as a placeholder in a component's template, marking the location where the router should dynamically render components based on the current URL route.

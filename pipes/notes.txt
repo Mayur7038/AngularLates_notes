@@ -10,12 +10,6 @@ TitleCasePipe
 AsyncPipe - AsyncPipe is a built-in pipe in Angular that is used to handle asynchronous data streams. It is commonly used to subscribe to observables or promises and display the emitted values in the view.
 
 
-
-
-
-
-
-
 Chaining in Pipes:-
     Chaining pipes in Angular involves applying multiple pipes in sequence to transform data in a template. 
     You can chain pipes by using the pipe operator (|) multiple times, with each pipe representing a separate transformation.
