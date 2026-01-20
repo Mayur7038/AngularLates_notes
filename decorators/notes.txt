@@ -1,0 +1,66 @@
+Decorators are special functions that modify the behaviour of classes or class members (properties, methods, etc.).
+Decorators are used to add metadata to classes so that the Angular compiler can process them appropriately.
+
+In Angular, decorators can be broadly categorized into four main types:
+
+1.Class decorators
+2.Property decorators
+3.Method decorators
+4.Parameter decorators
+
+
+
+1.Class decorators :-
+In Angular, class decorators are used to annotate and modify classes. 
+Class decorators are functions that can be applied to a class declaration,
+ typically prefixed with the @ symbol. These decorators execute when the class is defined, 
+ providing a way to extend or modify the behaviour of the class.
+
+ @Component,@Injectable,@Directive and @NgModule are widely used class decorators.
+
+
+ 2. Property Decorators
+
+ Property decorators in angular are used to annotate and modify class properties.
+  They are applied to the property declarations directly. 
+  Property decorators are invoked at runtime with the target object (instance of the class) and property name.
+
+@Input()  , @Output() , @HostBinding
+
+
+
+3. Method Decorators
+Method decorators in angular are used to annotate and modify class methods.
+They are applied to the method declarations directly.
+Method decorators are invoked at runtime with the target object (instance of the class),
+the property name (method name), and a property descriptor.
+
+@ViewChild,@ContentChild,@HostListener are widely used method decorators.
+
+// viewChild helps us to access the methods of children component also
+
+// ContentChild : Used to get reference of content projected from the parent into the child component (through <ng-content>).
+(it usefull like for passing content like text from parent to child element)
+
+// @HostListener() allows you to listen to DOM events directly on:
+The host element of a component/directive, or
+Global targets like window, document, or body.
+
+
+4. Parameter Decorators (look)
+
+Parameter decorators are special Angular decorators that are applied to constructor parameters (function parameters), not to properties or methods.
+They tell Angular’s Dependency Injection (DI) system how to resolve dependencies for that parameter when creating an instance of 
+a class (component, service, directive, etc.).
+
+Parameter decorators tell Angular what to inject and how to inject it into a constructor.
+
+@Host,@Inject,@Self,@SkipSelf are widely used parameter decorators.  
+
+| Decorator     | Purpose                                                                            | Example                                             |
+| ------------- | ---------------------------------------------------------------------------------- | --------------------------------------------------- |
+| `@Inject()`   | Specifies a **custom injection token** for a parameter.                            | `constructor(@Inject(MY_TOKEN) value: any)`         |
+| `@Optional()` | Makes a dependency **optional** (no error if not provided).                        | `constructor(@Optional() logger?: LoggerService)`   |
+| `@Self()`     | Limits the injector to **current injector only** (doesn’t check parent injectors). | `constructor(@Self() service: MyService)`           |
+| `@SkipSelf()` | Skips the current injector and looks **up the injector tree**.                     | `constructor(@SkipSelf() parentService: MyService)` |
+| `@Host()`     | Restricts resolution to the **host element’s injector** (stops at host).           | `constructor(@Host() hostService: MyService)`       |

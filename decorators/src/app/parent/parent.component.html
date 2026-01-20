@@ -1,0 +1,10 @@
+<p>parent works!</p>
+<input type="text"[(ngModel)]="title">
+<app-child [childTitle]="title" (toParent)="fromParentElem($event)"></app-child>
+<p>from-Parent{{fromParentEvent}} </p>
+
+
+<ng-content></ng-content> 
+
+
+<p>Move your mouse anywhere in the window to see HostListener logs.</p>

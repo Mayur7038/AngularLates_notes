@@ -1,0 +1,3 @@
+As an application grows, developers often need to reuse and share features across different parts of the codebase.
+ Dependency Injection (DI) is a design pattern used to organize and share code 
+ across an application by allowing you to "inject" features into different parts.
